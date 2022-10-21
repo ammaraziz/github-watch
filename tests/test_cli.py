@@ -25,7 +25,6 @@ def test_add(options,expected):
     "options,expected", 
     [
         (["check", "--db", "tests/test.json"], "cov-lineages/pango-designation"),
-        (["check", "--slack", "https://hooks.slack.com/services/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", "--db", "tests/test.json"], "Sending update to slack"),
 ])
 def test_check(options,expected):
     import json
