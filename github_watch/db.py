@@ -13,14 +13,6 @@ class DB:
         if not self.db:
             self._load()
 
-    def transaction(func):
-        def wrapper(self, *args, **kwargs):
-            self._load()
-            res = func(self, *args, **kwargs)
-            self._save()
-            return res
-        return wrapper
-
     def __iter__(self):
         self.current_index = 0
         self.keys = list(self.db.keys())
@@ -32,7 +24,6 @@ class DB:
             self.current_index += 1
             return key
         raise StopIteration
-
 
     def _create_db(self):
         with open(self.path, "w") as f:
@@ -46,6 +37,14 @@ class DB:
     def _save(self):
         with open(self.path, "w") as f:
             json.dump(self.db, f, indent=6)
+
+    def transaction(func):
+        def wrapper(self, *args, **kwargs):
+            self._load()
+            res = func(self, *args, **kwargs)
+            self._save()
+            return res
+        return wrapper
 
     @transaction
     def get(self, key):
