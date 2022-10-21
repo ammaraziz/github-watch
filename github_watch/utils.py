@@ -13,6 +13,7 @@ def send_slack_msg(hook_url, text):
         ]
     }
     r = requests.post(hook_url, json=data)
+    assert r.status_code == 200
 
 
 def create_url(repo: str):
