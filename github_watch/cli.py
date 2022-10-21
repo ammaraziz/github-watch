@@ -52,7 +52,7 @@ def check(
             typer.echo("No change!\n")
             continue
         
-        text = f"New version of <{repo_on_GitHub['html_url']}|{repo_id}> ({repo_on_GitHub['tag_name']}) released!\n\n{repo_on_GitHub['body']}\n"
+        text = f"✨ New version of <{repo_on_GitHub['html_url']}|{repo_id}> ({repo_on_GitHub['tag_name']}) released ✨"
         typer.echo(text)
 
         # update db
