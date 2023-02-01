@@ -39,11 +39,11 @@
             "body": "Release of pangolin-data repository corresponding to pango-designation version 1.18. This repository is compatible with pangolin v4.0 onwards."
       },
       "nextstrain/nextclade_data": {
-            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/90437211",
-            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/90437211/assets",
-            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/90437211/assets{?name,label}",
-            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2023-01-27--15-24-23--UTC",
-            "id": 90437211,
+            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/91016839",
+            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/91016839/assets",
+            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/91016839/assets{?name,label}",
+            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2023-02-01--16-16-41--UTC",
+            "id": 91016839,
             "author": {
                   "login": "corneliusroemer",
                   "id": 25161793,
@@ -64,17 +64,17 @@
                   "type": "User",
                   "site_admin": false
             },
-            "node_id": "RE_kwDOF4y9Xs4FY_Zb",
-            "tag_name": "2023-01-27--15-24-23--UTC",
+            "node_id": "RE_kwDOF4y9Xs4FbM6H",
+            "tag_name": "2023-02-01--16-16-41--UTC",
             "target_commitish": "master",
-            "name": "2023-01-27",
+            "name": "2023-02-01",
             "draft": false,
             "prerelease": false,
-            "created_at": "2023-01-27T15:05:30Z",
-            "published_at": "2023-01-27T15:41:43Z",
+            "created_at": "2023-02-01T15:02:53Z",
+            "published_at": "2023-02-01T17:52:16Z",
             "assets": [],
-            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2023-01-27--15-24-23--UTC",
-            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2023-01-27--15-24-23--UTC",
-            "body": "### Seasonal flu datasets\r\n\r\n#### New dataset version (tag `2023-01-27T12:00:00Z`)\r\n\r\n- fixes the omitted A/H3N2 clade 2d (very rare, had dropped out)\r\n- adds more contextual sequences to the trees\r\n- adds NA datasets for A/H3N2, A/H1N1pdm, B/Vic\r\n\r\n### Monkeypox datasets\r\n\r\n#### New dataset version (tag `2023-01-26T12:00:00Z`)\r\n\r\n- New monkeypox lineages B.1.15, B.1.16, and B.1.17 were added to the datasets, see <https://github.com/mpxv-lineages/lineage-designation/pull/31> for details on these lineages.\r\n"
+            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2023-02-01--16-16-41--UTC",
+            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2023-02-01--16-16-41--UTC",
+            "body": "### New dataset version (tag `2023-02-01T12:00:00Z`)\r\n\r\n#### SARS-CoV-2 datasets\r\n\r\n- Change: Values output into the `clade` column of Nextclade csv/tsv files change from composite type: `20H (Beta, V2)` to simple year-letter: `20H`. If you do not want this change, simply use the column `clade_legacy` that is also output into the csv/tsv files. Other clade types are unchanged: `clade_nextstrain` (now same as `clade`), `clade_who` and `Nextclade_pango`. This migration was first mentioned three months ago in release [2022-10-31](https://github.com/nextstrain/nextclade_data/releases/tag/2022-10-31--11-48-49--UTC)\r\n- New Nextstrain clade `23A` added, equivalent to Pango lineage `XBB.1.5`, see <https://github.com/nextstrain/ncov/pull/1043> for details\r\n- Data update: 55 new Pango lineages, with designation date between 2023-01-10 and 2023-01-31, are now included, unfold below to see all the lineages:\r\n\r\n  <details>\r\n    <summary> Newly included lineages, with designation date in parentheses</summary>\r\n\r\n  - DU.1 (2023-01-12)\r\n  - CH.1.1.5 (2023-01-13)\r\n  - BQ.1.1.35 (2023-01-14)\r\n  - DV.1 (2023-01-14)\r\n  - BQ.1.1.36 (2023-01-14)\r\n  - XBN (2023-01-14)\r\n  - BA.5.1.32 (2023-01-15)\r\n  - BA.5.2.50 (2023-01-21)\r\n  - DW.1 (2023-01-23)\r\n  - BQ.1.1.37 (2023-01-23)\r\n  - BQ.1.1.38 (2023-01-24)\r\n  - BF.7.14.1 (2023-01-25)\r\n  - BQ.1.11.1 (2023-01-26)\r\n  - BR.5 (2023-01-27)\r\n  - BQ.1.1.39 (2023-01-27)\r\n  - BQ.1.2.1 (2023-01-28)\r\n  - DV.2 (2023-01-28)\r\n  - DV.3 (2023-01-28)\r\n  - CH.1.1.6 (2023-01-28)\r\n  - CH.1.1.7 (2023-01-28)\r\n  - CH.1.1.8 (2023-01-28)\r\n  - CH.1.1.9 (2023-01-28)\r\n  - BN.1.10 (2023-01-28)\r\n  - BN.1.11 (2023-01-28)\r\n  - BQ.1.1.40 (2023-01-28)\r\n  - BQ.1.1.41 (2023-01-28)\r\n  - BQ.1.1.42 (2023-01-28)\r\n  - BQ.1.1.43 (2023-01-28)\r\n  - BQ.1.1.44 (2023-01-28)\r\n  - BQ.1.1.45 (2023-01-28)\r\n  - BQ.1.1.46 (2023-01-28)\r\n  - BQ.1.1.47 (2023-01-28)\r\n  - CM.8.1.2 (2023-01-28)\r\n  - CM.8.1.1 (2023-01-28)\r\n  - DS.2 (2023-01-28)\r\n  - XBB.1.10 (2023-01-28)\r\n  - DY.1 (2023-01-28)\r\n  - BF.7.14.2 (2023-01-28)\r\n  - BF.7.14.3 (2023-01-28)\r\n  - DZ.1 (2023-01-28)\r\n  - XBB.1.5.1 (2023-01-28)\r\n  - XBB.1.5.2 (2023-01-29)\r\n  - XBB.1.5.3 (2023-01-29)\r\n  - DN.1.1.1 (2023-01-30)\r\n  - DN.1.1.2 (2023-01-30)\r\n  - XBP (2023-01-30)\r\n  - BQ.1.1.48 (2023-01-30)\r\n  - BQ.1.1.49 (2023-01-30)\r\n  - DZ.2 (2023-01-31)\r\n  - XBB.7 (2023-01-31)\r\n  - XBB.2.3 (2023-01-31)\r\n  - XBB.1.11 (2023-01-31)\r\n  - XBB.1.11.1 (2023-01-31)\r\n  - DY.1.1 (2023-01-31)\r\n  - DJ.1.1.1 (2023-01-31)\r\n\r\n  </details>\r\n\r\n#### Seasonal flu datasets\r\n\r\n- removes a synonymous mutation from the definition of A/H3N2 clade 2a.3b. Some viruses that should be in this clade didn't have this change.\r\n- adds glycosylation to the remaining flu data sets"
       }
 }
