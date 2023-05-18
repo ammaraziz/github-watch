@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "github-watch"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["wytamma <wytamma.wirth@me.com>"]
 license = "MIT"
