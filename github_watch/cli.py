@@ -1,7 +1,6 @@
 from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
-import requests
 import typer
 from .db import DB
 from .utils import create_url, get_repo, get_repo_from_name, send_slack_msg
@@ -42,24 +41,27 @@ def check(
     if id:
         repos = id
     
-    for repo_id in repos:
-        print(repo_id)
-        repo_in_db = db.get(repo_id)
-        repo_on_GitHub = get_repo_from_name(repo_id)
+    for repo_name in repos:
+        print(repo_name)
+        repo_in_db = db.get(repo_name)
+        repo_on_GitHub = get_repo_from_name(repo_name)
 
         if repo_in_db['url'] == repo_on_GitHub['url']:
             # if sha in db no change
             typer.echo("No change!\n")
             continue
         
-        text = f"✨ New version of <{repo_on_GitHub['html_url']}|{repo_id}> ({repo_on_GitHub['tag_name']}) released ✨"
+        text = f"✨ New version of <{repo_on_GitHub['html_url']}|{repo_name}> ({repo_on_GitHub['tag_name']}) released ✨"
         typer.echo(text)
+        typer.echo(repo_on_GitHub['body'])
+        
 
         # update db
-        db.put(repo_id, repo_on_GitHub)
+        db.put(repo_name, repo_on_GitHub)
         
         # send slack
         if slack:
             typer.echo('Sending update to slack!\n')
             for hook_url in slack:
                 send_slack_msg(hook_url, text)
+                send_slack_msg(hook_url, repo_on_GitHub['body'])
