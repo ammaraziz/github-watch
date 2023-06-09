@@ -64,4 +64,7 @@ def check(
             typer.echo('Sending update to slack!\n')
             for hook_url in slack:
                 send_slack_msg(hook_url, text)
-                send_slack_msg(hook_url, repo_on_GitHub['body'])
+                msg = ""
+                if len(repo_on_GitHub['body']) > 3000:
+                    elip = "..."
+                send_slack_msg(hook_url, f"{repo_on_GitHub['body'][:3000]}{msg}")
