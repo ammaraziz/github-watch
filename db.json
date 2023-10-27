@@ -1,10 +1,10 @@
 {
       "cov-lineages/pangolin-data": {
-            "url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/126055559",
-            "assets_url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/126055559/assets",
-            "upload_url": "https://uploads.github.com/repos/cov-lineages/pangolin-data/releases/126055559/assets{?name,label}",
-            "html_url": "https://github.com/cov-lineages/pangolin-data/releases/tag/v1.23",
-            "id": 126055559,
+            "url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/126873847",
+            "assets_url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/126873847/assets",
+            "upload_url": "https://uploads.github.com/repos/cov-lineages/pangolin-data/releases/126873847/assets{?name,label}",
+            "html_url": "https://github.com/cov-lineages/pangolin-data/releases/tag/v1.23.1",
+            "id": 126873847,
             "author": {
                   "login": "AngieHinrichs",
                   "id": 186983,
@@ -25,30 +25,18 @@
                   "type": "User",
                   "site_admin": false
             },
-            "node_id": "RE_kwDOGvTxf84Hg3SH",
-            "tag_name": "v1.23",
+            "node_id": "RE_kwDOGvTxf84Hj_D3",
+            "tag_name": "v1.23.1",
             "target_commitish": "main",
-            "name": "pangolin-data v1.23",
+            "name": "pangolin-data v1.23.1",
             "draft": false,
             "prerelease": false,
-            "created_at": "2023-10-20T01:41:03Z",
-            "published_at": "2023-10-20T18:38:42Z",
+            "created_at": "2023-10-27T00:59:10Z",
+            "published_at": "2023-10-27T01:08:43Z",
             "assets": [],
-            "tarball_url": "https://api.github.com/repos/cov-lineages/pangolin-data/tarball/v1.23",
-            "zipball_url": "https://api.github.com/repos/cov-lineages/pangolin-data/zipball/v1.23",
-            "body": "Release of pangolin-data repository corresponding to [pango-designation version 1.23](https://github.com/cov-lineages/pango-designation/releases/tag/v1.23).  This repository is compatible with pangolin v4.3 onwards.\r\n\r\n*** NOTE: the v1.23 tree provokes a corner-case bug in usher-sampled prior to version 0.6.3 that causes some lineage A samples to be assigned to A.* sublineages or even B or B.* sublineages.  If you will be running pangolin on early 2020 sequences that may be lineage A, then it is highly recommended to use the assignment cache (install by running `pangolin --add-assignment-cache`, run pangolin on input sequences with `--use-assignment-cache`) and to update the usher package in your pangolin environment to 0.6.3 as soon as it is released.\r\n",
-            "reactions": {
-                  "url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/126055559/reactions",
-                  "total_count": 1,
-                  "+1": 0,
-                  "-1": 0,
-                  "laugh": 0,
-                  "hooray": 1,
-                  "confused": 0,
-                  "heart": 0,
-                  "rocket": 0,
-                  "eyes": 0
-            }
+            "tarball_url": "https://api.github.com/repos/cov-lineages/pangolin-data/tarball/v1.23.1",
+            "zipball_url": "https://api.github.com/repos/cov-lineages/pangolin-data/zipball/v1.23.1",
+            "body": "The lineageTree.pb for pangolin-data v1.23 accidentally included several lineages that were designated just after pango-designation release v1.23: BA.2.86.2, BA.2.86.3 and JQ.1. The pangolin-data v1.23 file alias_key.json, a copy of pango-designation's v1.23 alias_key.json, did not include the alias JQ. That discrepancy causes errors when JQ.1 is assigned by UShER and pangolin is not run with the --skip-scorpio flag, because the comparison between UShER-assigned lineage JQ.1 and scorpio VoC call requires lookup of the JQ alias.\r\n\r\nInstead of removing BA.2.86.2, BA.2.86.3 and JQ.1 from lineageTree.pb, this minor release adds JQ to pangolin-data's alias_key.json to avoid errors when JQ.1 is assigned."
       },
       "nextstrain/nextclade_data": {
             "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/126806413",
