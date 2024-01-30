@@ -51,11 +51,11 @@
             }
       },
       "nextstrain/nextclade_data": {
-            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/138890829",
-            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/138890829/assets",
-            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/138890829/assets{?name,label}",
-            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2024-01-29--10-29-43Z",
-            "id": 138890829,
+            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/139163885",
+            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/139163885/assets",
+            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/139163885/assets{?name,label}",
+            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2024-01-30--16-34-55Z",
+            "id": 139163885,
             "author": {
                   "login": "github-actions[bot]",
                   "id": 41898282,
@@ -76,20 +76,20 @@
                   "type": "Bot",
                   "site_admin": false
             },
-            "node_id": "RE_kwDOF4y9Xs4IR05N",
-            "tag_name": "2024-01-29--10-29-43Z",
-            "target_commitish": "c3a8485d816b0e18eedcf7e5f00e76ac259b6663",
-            "name": "2024-01-29--10-29-43Z",
+            "node_id": "RE_kwDOF4y9Xs4IS3jt",
+            "tag_name": "2024-01-30--16-34-55Z",
+            "target_commitish": "7d2b75ee0bc53239fff295fa315af3dcc770e6d3",
+            "name": "2024-01-30--16-34-55Z",
             "draft": false,
             "prerelease": false,
-            "created_at": "2024-01-29T10:29:47Z",
-            "published_at": "2024-01-29T10:29:55Z",
+            "created_at": "2024-01-30T16:34:59Z",
+            "published_at": "2024-01-30T16:35:06Z",
             "assets": [
                   {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/148475170",
-                        "id": 148475170,
-                        "node_id": "RA_kwDOF4y9Xs4I2Y0i",
-                        "name": "nextstrain__rsv__a__EPI_ISL_412866__2024-01-29--10-29-43Z.zip",
+                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/148745092",
+                        "id": 148745092,
+                        "node_id": "RA_kwDOF4y9Xs4I3auE",
+                        "name": "nextstrain__flu__yam__ha__JN993010__2024-01-30--16-34-55Z.zip",
                         "label": "",
                         "uploader": {
                               "login": "github-actions[bot]",
@@ -113,49 +113,15 @@
                         },
                         "content_type": "application/zip",
                         "state": "uploaded",
-                        "size": 328920,
-                        "download_count": 2,
-                        "created_at": "2024-01-29T10:29:55Z",
-                        "updated_at": "2024-01-29T10:29:55Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2024-01-29--10-29-43Z/nextstrain__rsv__a__EPI_ISL_412866__2024-01-29--10-29-43Z.zip"
-                  },
-                  {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/148475169",
-                        "id": 148475169,
-                        "node_id": "RA_kwDOF4y9Xs4I2Y0h",
-                        "name": "nextstrain__rsv__b__EPI_ISL_1653999__2024-01-29--10-29-43Z.zip",
-                        "label": "",
-                        "uploader": {
-                              "login": "github-actions[bot]",
-                              "id": 41898282,
-                              "node_id": "MDM6Qm90NDE4OTgyODI=",
-                              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-                              "gravatar_id": "",
-                              "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-                              "html_url": "https://github.com/apps/github-actions",
-                              "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-                              "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-                              "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-                              "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-                              "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-                              "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-                              "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-                              "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-                              "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-                              "type": "Bot",
-                              "site_admin": false
-                        },
-                        "content_type": "application/zip",
-                        "state": "uploaded",
-                        "size": 336750,
+                        "size": 56621,
                         "download_count": 1,
-                        "created_at": "2024-01-29T10:29:55Z",
-                        "updated_at": "2024-01-29T10:29:55Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2024-01-29--10-29-43Z/nextstrain__rsv__b__EPI_ISL_1653999__2024-01-29--10-29-43Z.zip"
+                        "created_at": "2024-01-30T16:35:06Z",
+                        "updated_at": "2024-01-30T16:35:06Z",
+                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2024-01-30--16-34-55Z/nextstrain__flu__yam__ha__JN993010__2024-01-30--16-34-55Z.zip"
                   }
             ],
-            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2024-01-29--10-29-43Z",
-            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2024-01-29--10-29-43Z",
-            "body": "This release contains changes for datasets:\n\n- nextstrain/rsv/a/EPI_ISL_412866 (RSV-A)\n- nextstrain/rsv/b/EPI_ISL_1653999 (RSV-B)\n\n\n\n## RSV-A (nextstrain/rsv/a/EPI_ISL_412866)\n\n - fix definitions of G_clades (legacy) for RSV-A and RSV-B\n\n\n\n\n\n## RSV-B (nextstrain/rsv/b/EPI_ISL_1653999)\n\n - fix definitions of G_clades (legacy) for RSV-A and RSV-B\n\n\n\n"
+            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2024-01-30--16-34-55Z",
+            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2024-01-30--16-34-55Z",
+            "body": "This release contains changes for datasets:\n\n- Influenza B Yamagata HA (nextstrain/flu/yam/ha/JN993010)\n\n\n\n## Influenza B Yamagata HA (nextstrain/flu/yam/ha/JN993010)\n\nFix: Add shortcut paths to maintain backwards compatibility: i.e. one can request the dataset via `nextclade dataset get --name flu_yam_ha --output-dir dataset`, using the v2 path `flu_yam_ha`, instead of requiring the full v3 path `nextstrain/flu/yam/ha/JN993010`.\n\n\n\n"
       }
 }
