@@ -1,10 +1,10 @@
 {
       "cov-lineages/pangolin-data": {
-            "url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/141920038",
-            "assets_url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/141920038/assets",
-            "upload_url": "https://uploads.github.com/repos/cov-lineages/pangolin-data/releases/141920038/assets{?name,label}",
-            "html_url": "https://github.com/cov-lineages/pangolin-data/releases/tag/v1.25",
-            "id": 141920038,
+            "url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/142053774",
+            "assets_url": "https://api.github.com/repos/cov-lineages/pangolin-data/releases/142053774/assets",
+            "upload_url": "https://uploads.github.com/repos/cov-lineages/pangolin-data/releases/142053774/assets{?name,label}",
+            "html_url": "https://github.com/cov-lineages/pangolin-data/releases/tag/v1.25.1",
+            "id": 142053774,
             "author": {
                   "login": "AngieHinrichs",
                   "id": 186983,
@@ -25,18 +25,18 @@
                   "type": "User",
                   "site_admin": false
             },
-            "node_id": "RE_kwDOGvTxf84IdYcm",
-            "tag_name": "v1.25",
+            "node_id": "RE_kwDOGvTxf84Id5GO",
+            "tag_name": "v1.25.1",
             "target_commitish": "main",
-            "name": "pangolin-data v1.25",
+            "name": "pangolin-data v1.25.1",
             "draft": false,
             "prerelease": false,
-            "created_at": "2024-02-13T18:08:23Z",
-            "published_at": "2024-02-14T04:39:29Z",
+            "created_at": "2024-02-14T20:38:40Z",
+            "published_at": "2024-02-14T21:04:26Z",
             "assets": [],
-            "tarball_url": "https://api.github.com/repos/cov-lineages/pangolin-data/tarball/v1.25",
-            "zipball_url": "https://api.github.com/repos/cov-lineages/pangolin-data/zipball/v1.25",
-            "body": "Release of pangolin-data repository corresponding to [pango-designation version 1.25](https://github.com/cov-lineages/pango-designation/releases/tag/v1.25).  This repository is compatible with pangolin v4.3 onwards.\r\n"
+            "tarball_url": "https://api.github.com/repos/cov-lineages/pangolin-data/tarball/v1.25.1",
+            "zipball_url": "https://api.github.com/repos/cov-lineages/pangolin-data/zipball/v1.25.1",
+            "body": "Minor update: no change to lineageTree.pb; updates to alias_key.json and lineages.hash.csv now use v1.25 pango-designation files as they should (pango-designation v1.24 files were mistakenly used in the pangolin-data v1.25 release).\r\n"
       },
       "nextstrain/nextclade_data": {
             "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/139163885",
