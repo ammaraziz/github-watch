@@ -1,10 +1,11 @@
 on:
+  workflow_dispatch:
   push:
     branches: 
       - master
       - main
-  schedule:
-      - cron: '0 */6 * * *'
+  #schedule:
+      #- cron: '0 */6 * * *'
 
 jobs:
   check:
