@@ -39,11 +39,11 @@
             "body": "Release of pangolin-data repository corresponding to [pango-designation version 1.27](https://github.com/cov-lineages/pango-designation/releases/tag/v1.27).  This repository is compatible with pangolin v4.3 onwards.\r\n"
       },
       "nextstrain/nextclade_data": {
-            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/159314289",
-            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/159314289/assets",
-            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/159314289/assets{?name,label}",
-            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2024-06-07--06-48-19Z",
-            "id": 159314289,
+            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/161142962",
+            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/161142962/assets",
+            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/161142962/assets{?name,label}",
+            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2024-06-18--19-09-40Z",
+            "id": 161142962,
             "author": {
                   "login": "github-actions[bot]",
                   "id": 41898282,
@@ -64,20 +64,20 @@
                   "type": "Bot",
                   "site_admin": false
             },
-            "node_id": "RE_kwDOF4y9Xs4JfvFx",
-            "tag_name": "2024-06-07--06-48-19Z",
-            "target_commitish": "ba4c1fa4df23fc0db3303274c1a8ea83d901cae9",
-            "name": "2024-06-07--06-48-19Z",
+            "node_id": "RE_kwDOF4y9Xs4Jmtiy",
+            "tag_name": "2024-06-18--19-09-40Z",
+            "target_commitish": "ed9e04838a4a1e61f9427b0906941eb72c4380b9",
+            "name": "2024-06-18--19-09-40Z",
             "draft": false,
             "prerelease": false,
-            "created_at": "2024-06-07T06:48:24Z",
-            "published_at": "2024-06-07T06:48:32Z",
+            "created_at": "2024-06-18T19:09:45Z",
+            "published_at": "2024-06-18T19:09:55Z",
             "assets": [
                   {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/172427644",
-                        "id": 172427644,
-                        "node_id": "RA_kwDOF4y9Xs4KRwl8",
-                        "name": "nextstrain__measles__N450__WHO-2012__2024-06-07--06-48-19Z.zip",
+                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/174547909",
+                        "id": 174547909,
+                        "node_id": "RA_kwDOF4y9Xs4KZ2PF",
+                        "name": "nextstrain__dengue__all__2024-06-18--19-09-40Z.zip",
                         "label": "",
                         "uploader": {
                               "login": "github-actions[bot]",
@@ -101,15 +101,15 @@
                         },
                         "content_type": "application/zip",
                         "state": "uploaded",
-                        "size": 1366155,
+                        "size": 4036936,
                         "download_count": 0,
-                        "created_at": "2024-06-07T06:48:31Z",
-                        "updated_at": "2024-06-07T06:48:31Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2024-06-07--06-48-19Z/nextstrain__measles__N450__WHO-2012__2024-06-07--06-48-19Z.zip"
+                        "created_at": "2024-06-18T19:09:54Z",
+                        "updated_at": "2024-06-18T19:09:55Z",
+                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2024-06-18--19-09-40Z/nextstrain__dengue__all__2024-06-18--19-09-40Z.zip"
                   }
             ],
-            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2024-06-07--06-48-19Z",
-            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2024-06-07--06-48-19Z",
-            "body": "This release contains changes for datasets:\n\n- Measles N450 (WHO-2012) (nextstrain/measles/N450/WHO-2012)\n\n\n\n## Measles N450 (WHO-2012) (nextstrain/measles/N450/WHO-2012)\n\nInitial release.\n\n"
+            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2024-06-18--19-09-40Z",
+            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2024-06-18--19-09-40Z",
+            "body": "This release contains changes for datasets:\n\n- Dengue virus All serotypes (nextstrain/dengue/all)\n\n\n\n## Dengue virus All serotypes (nextstrain/dengue/all)\n\nInitial release for Nextclade v3!\n\nRead more about Nextclade datasets in the documentation: https://docs.nextstrain.org/projects/nextclade/en/stable/user/datasets.html\n\n"
       }
 }
