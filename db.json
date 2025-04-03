@@ -40,11 +40,11 @@
             "body": "Release of pangolin-data repository corresponding to [pango-designation version 1.33.1](https://github.com/cov-lineages/pango-designation/releases/tag/v1.33.1).  This repository is compatible with pangolin v4.3 onwards.\r\n"
       },
       "nextstrain/nextclade_data": {
-            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/209531833",
-            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/209531833/assets",
-            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/209531833/assets{?name,label}",
-            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2025-04-01--08-20-12Z",
-            "id": 209531833,
+            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/209935197",
+            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/209935197/assets",
+            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/209935197/assets{?name,label}",
+            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2025-04-02--19-11-08Z",
+            "id": 209935197,
             "author": {
                   "login": "github-actions[bot]",
                   "id": 41898282,
@@ -66,20 +66,20 @@
                   "user_view_type": "public",
                   "site_admin": false
             },
-            "node_id": "RE_kwDOF4y9Xs4MfTO5",
-            "tag_name": "2025-04-01--08-20-12Z",
-            "target_commitish": "67bd66b35634970612ae7f3c3b2a694a547ca588",
-            "name": "2025-04-01--08-20-12Z",
+            "node_id": "RE_kwDOF4y9Xs4Mg1td",
+            "tag_name": "2025-04-02--19-11-08Z",
+            "target_commitish": "c8ed3c3567d8ab72b48996392e0313769ef83130",
+            "name": "2025-04-02--19-11-08Z",
             "draft": false,
             "prerelease": false,
-            "created_at": "2025-04-01T08:20:17Z",
-            "published_at": "2025-04-01T08:20:25Z",
+            "created_at": "2025-04-02T19:11:14Z",
+            "published_at": "2025-04-02T19:11:22Z",
             "assets": [
                   {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/242544054",
-                        "id": 242544054,
-                        "node_id": "RA_kwDOF4y9Xs4OdO22",
-                        "name": "nextstrain__sars-cov-2__BA.2.86__2025-04-01--08-20-12Z.zip",
+                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/242983609",
+                        "id": 242983609,
+                        "node_id": "RA_kwDOF4y9Xs4Oe6K5",
+                        "name": "community__v-gen-lab__dengue__denv1__2025-04-02--19-11-08Z.zip",
                         "label": "",
                         "uploader": {
                               "login": "github-actions[bot]",
@@ -104,50 +104,15 @@
                         },
                         "content_type": "application/zip",
                         "state": "uploaded",
-                        "size": 8474249,
+                        "size": 3210172,
                         "download_count": 1,
-                        "created_at": "2025-04-01T08:20:24Z",
-                        "updated_at": "2025-04-01T08:20:25Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-04-01--08-20-12Z/nextstrain__sars-cov-2__BA.2.86__2025-04-01--08-20-12Z.zip"
-                  },
-                  {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/242544055",
-                        "id": 242544055,
-                        "node_id": "RA_kwDOF4y9Xs4OdO23",
-                        "name": "nextstrain__sars-cov-2__wuhan-hu-1__orfs__2025-04-01--08-20-12Z.zip",
-                        "label": "",
-                        "uploader": {
-                              "login": "github-actions[bot]",
-                              "id": 41898282,
-                              "node_id": "MDM6Qm90NDE4OTgyODI=",
-                              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-                              "gravatar_id": "",
-                              "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-                              "html_url": "https://github.com/apps/github-actions",
-                              "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-                              "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-                              "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-                              "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-                              "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-                              "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-                              "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-                              "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-                              "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-                              "type": "Bot",
-                              "user_view_type": "public",
-                              "site_admin": false
-                        },
-                        "content_type": "application/zip",
-                        "state": "uploaded",
-                        "size": 9293244,
-                        "download_count": 1,
-                        "created_at": "2025-04-01T08:20:24Z",
-                        "updated_at": "2025-04-01T08:20:25Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-04-01--08-20-12Z/nextstrain__sars-cov-2__wuhan-hu-1__orfs__2025-04-01--08-20-12Z.zip"
+                        "created_at": "2025-04-02T19:11:21Z",
+                        "updated_at": "2025-04-02T19:11:21Z",
+                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-04-02--19-11-08Z/community__v-gen-lab__dengue__denv1__2025-04-02--19-11-08Z.zip"
                   }
             ],
-            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2025-04-01--08-20-12Z",
-            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2025-04-01--08-20-12Z",
-            "body": "This release contains changes for datasets:\n\n- SARS-CoV-2 (nextstrain/sars-cov-2/wuhan-hu-1/orfs)\n- SARS-CoV-2 (BA.2.86) (nextstrain/sars-cov-2/BA.2.86)\n\n\n\n## SARS-CoV-2 (nextstrain/sars-cov-2/wuhan-hu-1/orfs)\n\nAutomated update\n\n\n\n\n## SARS-CoV-2 (BA.2.86) (nextstrain/sars-cov-2/BA.2.86)\n\nAutomated update\n\n\n\n"
+            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2025-04-02--19-11-08Z",
+            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2025-04-02--19-11-08Z",
+            "body": "This release contains changes for datasets:\n\n- DENV-1 (community/v-gen-lab/dengue/denv1)\n\n\n\n## DENV-1 (community/v-gen-lab/dengue/denv1)\n\nFix minor typo of \"Outgoup\" to \"Outgroup\"\n\n\n\n"
       }
 }
