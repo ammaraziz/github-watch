@@ -40,11 +40,11 @@
             "body": "Release of pangolin-data repository corresponding to [pango-designation version 1.33.1](https://github.com/cov-lineages/pango-designation/releases/tag/v1.33.1).  This repository is compatible with pangolin v4.3 onwards.\r\n"
       },
       "nextstrain/nextclade_data": {
-            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/214778085",
-            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/214778085/assets",
-            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/214778085/assets{?name,label}",
-            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2025-04-25--12-24-24Z",
-            "id": 214778085,
+            "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/216491893",
+            "assets_url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/216491893/assets",
+            "upload_url": "https://uploads.github.com/repos/nextstrain/nextclade_data/releases/216491893/assets{?name,label}",
+            "html_url": "https://github.com/nextstrain/nextclade_data/releases/tag/2025-05-05--13-15-29Z",
+            "id": 216491893,
             "author": {
                   "login": "github-actions[bot]",
                   "id": 41898282,
@@ -66,20 +66,20 @@
                   "user_view_type": "public",
                   "site_admin": false
             },
-            "node_id": "RE_kwDOF4y9Xs4MzUDl",
-            "tag_name": "2025-04-25--12-24-24Z",
-            "target_commitish": "f86a1a5c67fc6f699082ec323d1f491880712420",
-            "name": "2025-04-25--12-24-24Z",
+            "node_id": "RE_kwDOF4y9Xs4M52d1",
+            "tag_name": "2025-05-05--13-15-29Z",
+            "target_commitish": "240c0abd160afb8a5e7d306ebf1b1d86ca0456c4",
+            "name": "2025-05-05--13-15-29Z",
             "draft": false,
             "prerelease": false,
-            "created_at": "2025-04-25T12:24:29Z",
-            "published_at": "2025-04-25T12:24:38Z",
+            "created_at": "2025-05-05T13:15:35Z",
+            "published_at": "2025-05-05T13:15:46Z",
             "assets": [
                   {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/249436951",
-                        "id": 249436951,
-                        "node_id": "RA_kwDOF4y9Xs4O3hsX",
-                        "name": "nextstrain__hmpv__all-clades__NC_039199__2025-04-25--12-24-24Z.zip",
+                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/252007910",
+                        "id": 252007910,
+                        "node_id": "RA_kwDOF4y9Xs4PBVXm",
+                        "name": "nextstrain__sars-cov-2__BA.2.86__2025-05-05--13-15-29Z.zip",
                         "label": "",
                         "uploader": {
                               "login": "github-actions[bot]",
@@ -104,17 +104,17 @@
                         },
                         "content_type": "application/zip",
                         "state": "uploaded",
-                        "size": 1635622,
-                        "download_count": 0,
-                        "created_at": "2025-04-25T12:24:37Z",
-                        "updated_at": "2025-04-25T12:24:37Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-04-25--12-24-24Z/nextstrain__hmpv__all-clades__NC_039199__2025-04-25--12-24-24Z.zip"
+                        "size": 8532315,
+                        "download_count": 1,
+                        "created_at": "2025-05-05T13:15:45Z",
+                        "updated_at": "2025-05-05T13:15:46Z",
+                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-05-05--13-15-29Z/nextstrain__sars-cov-2__BA.2.86__2025-05-05--13-15-29Z.zip"
                   },
                   {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/249436955",
-                        "id": 249436955,
-                        "node_id": "RA_kwDOF4y9Xs4O3hsb",
-                        "name": "nextstrain__mpox__all-clades__2025-04-25--12-24-24Z.zip",
+                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/252007909",
+                        "id": 252007909,
+                        "node_id": "RA_kwDOF4y9Xs4PBVXl",
+                        "name": "nextstrain__sars-cov-2__BA.2__2025-05-05--13-15-29Z.zip",
                         "label": "",
                         "uploader": {
                               "login": "github-actions[bot]",
@@ -139,17 +139,17 @@
                         },
                         "content_type": "application/zip",
                         "state": "uploaded",
-                        "size": 7571674,
-                        "download_count": 0,
-                        "created_at": "2025-04-25T12:24:37Z",
-                        "updated_at": "2025-04-25T12:24:37Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-04-25--12-24-24Z/nextstrain__mpox__all-clades__2025-04-25--12-24-24Z.zip"
+                        "size": 13063100,
+                        "download_count": 1,
+                        "created_at": "2025-05-05T13:15:45Z",
+                        "updated_at": "2025-05-05T13:15:46Z",
+                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-05-05--13-15-29Z/nextstrain__sars-cov-2__BA.2__2025-05-05--13-15-29Z.zip"
                   },
                   {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/249436956",
-                        "id": 249436956,
-                        "node_id": "RA_kwDOF4y9Xs4O3hsc",
-                        "name": "nextstrain__mpox__clade-iib__2025-04-25--12-24-24Z.zip",
+                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/252007908",
+                        "id": 252007908,
+                        "node_id": "RA_kwDOF4y9Xs4PBVXk",
+                        "name": "nextstrain__sars-cov-2__wuhan-hu-1__orfs__2025-05-05--13-15-29Z.zip",
                         "label": "",
                         "uploader": {
                               "login": "github-actions[bot]",
@@ -174,17 +174,17 @@
                         },
                         "content_type": "application/zip",
                         "state": "uploaded",
-                        "size": 3288857,
-                        "download_count": 0,
-                        "created_at": "2025-04-25T12:24:37Z",
-                        "updated_at": "2025-04-25T12:24:37Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-04-25--12-24-24Z/nextstrain__mpox__clade-iib__2025-04-25--12-24-24Z.zip"
+                        "size": 9529229,
+                        "download_count": 1,
+                        "created_at": "2025-05-05T13:15:45Z",
+                        "updated_at": "2025-05-05T13:15:46Z",
+                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-05-05--13-15-29Z/nextstrain__sars-cov-2__wuhan-hu-1__orfs__2025-05-05--13-15-29Z.zip"
                   },
                   {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/249436953",
-                        "id": 249436953,
-                        "node_id": "RA_kwDOF4y9Xs4O3hsZ",
-                        "name": "nextstrain__mpox__clade-i__2025-04-25--12-24-24Z.zip",
+                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/252007911",
+                        "id": 252007911,
+                        "node_id": "RA_kwDOF4y9Xs4PBVXn",
+                        "name": "nextstrain__sars-cov-2__wuhan-hu-1__proteins__2025-05-05--13-15-29Z.zip",
                         "label": "",
                         "uploader": {
                               "login": "github-actions[bot]",
@@ -209,17 +209,17 @@
                         },
                         "content_type": "application/zip",
                         "state": "uploaded",
-                        "size": 3635943,
-                        "download_count": 0,
-                        "created_at": "2025-04-25T12:24:37Z",
-                        "updated_at": "2025-04-25T12:24:37Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-04-25--12-24-24Z/nextstrain__mpox__clade-i__2025-04-25--12-24-24Z.zip"
+                        "size": 8029642,
+                        "download_count": 1,
+                        "created_at": "2025-05-05T13:15:45Z",
+                        "updated_at": "2025-05-05T13:15:46Z",
+                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-05-05--13-15-29Z/nextstrain__sars-cov-2__wuhan-hu-1__proteins__2025-05-05--13-15-29Z.zip"
                   },
                   {
-                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/249436952",
-                        "id": 249436952,
-                        "node_id": "RA_kwDOF4y9Xs4O3hsY",
-                        "name": "nextstrain__mpox__lineage-b.1__2025-04-25--12-24-24Z.zip",
+                        "url": "https://api.github.com/repos/nextstrain/nextclade_data/releases/assets/252007912",
+                        "id": 252007912,
+                        "node_id": "RA_kwDOF4y9Xs4PBVXo",
+                        "name": "nextstrain__sars-cov-2__XBB__2025-05-05--13-15-29Z.zip",
                         "label": "",
                         "uploader": {
                               "login": "github-actions[bot]",
@@ -244,15 +244,15 @@
                         },
                         "content_type": "application/zip",
                         "state": "uploaded",
-                        "size": 6041993,
-                        "download_count": 0,
-                        "created_at": "2025-04-25T12:24:37Z",
-                        "updated_at": "2025-04-25T12:24:37Z",
-                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-04-25--12-24-24Z/nextstrain__mpox__lineage-b.1__2025-04-25--12-24-24Z.zip"
+                        "size": 9248023,
+                        "download_count": 1,
+                        "created_at": "2025-05-05T13:15:45Z",
+                        "updated_at": "2025-05-05T13:15:46Z",
+                        "browser_download_url": "https://github.com/nextstrain/nextclade_data/releases/download/2025-05-05--13-15-29Z/nextstrain__sars-cov-2__XBB__2025-05-05--13-15-29Z.zip"
                   }
             ],
-            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2025-04-25--12-24-24Z",
-            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2025-04-25--12-24-24Z",
-            "body": "This release contains changes for datasets:\n\n- Mpox virus (All clades) (nextstrain/mpox/all-clades)\n- Mpox virus (Clade I) (nextstrain/mpox/clade-i)\n- Mpox virus (Clade IIb) (nextstrain/mpox/clade-iib)\n- Mpox virus (Lineage B.1) (nextstrain/mpox/lineage-b.1)\n- Human Metapneumovirus (nextstrain/hmpv/all-clades/NC_039199)\n\n\n\n## Mpox virus (All clades) (nextstrain/mpox/all-clades)\n\n- Newly released sequences are included.\n- Sequences are now downloaded from Pathoplexus instead of NCBI virus. This allows inclusion of restricted-use clade I sequences from INRB (Placide Mbala-Kingebeni's group) in the DRC. This nearly doubles clade I sequences available.\n- Based on user feedback, the QC rule for missing data (Ns) has been made more lenient.\n- Masked ranges that are ignored for placement have been updated.\n\n\n\n\n## Mpox virus (Clade I) (nextstrain/mpox/clade-i)\n\n- Newly released sequences are included.\n- Sequences are now downloaded from Pathoplexus instead of NCBI virus. This allows inclusion of restricted-use clade I sequences from INRB (Placide Mbala-Kingebeni's group) in the DRC. This nearly doubles clade I sequences available.\n- Based on user feedback, the QC rule for missing data (Ns) has been made more lenient.\n- Masked ranges that are ignored for placement have been updated.\n\n\n\n\n## Mpox virus (Clade IIb) (nextstrain/mpox/clade-iib)\n\n- Newly released sequences are included.\n- Sequences are now downloaded from Pathoplexus instead of NCBI virus. This allows inclusion of restricted-use clade I sequences from INRB (Placide Mbala-Kingebeni's group) in the DRC. This nearly doubles clade I sequences available.\n- Based on user feedback, the QC rule for missing data (Ns) has been made more lenient.\n- Masked ranges that are ignored for placement have been updated.\n\n\n\n\n## Mpox virus (Lineage B.1) (nextstrain/mpox/lineage-b.1)\n\n- Newly released sequences are included.\n- Sequences are now downloaded from Pathoplexus instead of NCBI virus. This allows inclusion of restricted-use clade I sequences from INRB (Placide Mbala-Kingebeni's group) in the DRC. This nearly doubles clade I sequences available.\n- Based on user feedback, the QC rule for missing data (Ns) has been made more lenient.\n- Masked ranges that are ignored for placement have been updated.\n\n\n\n\n## Human Metapneumovirus (nextstrain/hmpv/all-clades/NC_039199)\nThis release harmonizes the clade names to align with the proposal by [Groen et al, 2023](https://doi.org/10.1128/mbio.02280-22). The previous clade names are kept as \"Alt. clade\" to allow linking back to previous results.\n\n\n\n\n"
+            "tarball_url": "https://api.github.com/repos/nextstrain/nextclade_data/tarball/2025-05-05--13-15-29Z",
+            "zipball_url": "https://api.github.com/repos/nextstrain/nextclade_data/zipball/2025-05-05--13-15-29Z",
+            "body": "This release contains changes for datasets:\n\n- SARS-CoV-2 (nextstrain/sars-cov-2/wuhan-hu-1/orfs)\n- SARS-CoV-2 (Mature proteins) (nextstrain/sars-cov-2/wuhan-hu-1/proteins)\n- SARS-CoV-2 (BA.2) (nextstrain/sars-cov-2/BA.2)\n- SARS-CoV-2 (XBB) (nextstrain/sars-cov-2/XBB)\n- SARS-CoV-2 (BA.2.86) (nextstrain/sars-cov-2/BA.2.86)\n\n\n\n## SARS-CoV-2 (nextstrain/sars-cov-2/wuhan-hu-1/orfs)\n\n- Newly designated Nextstrain clade 25B (Pango lineage NB.1.8.1 = XDV.1.5.1.1.8.1) is now included.\n\n\n\n\n## SARS-CoV-2 (Mature proteins) (nextstrain/sars-cov-2/wuhan-hu-1/proteins)\n\n- Newly designated Nextstrain clade 25B (Pango lineage NB.1.8.1 = XDV.1.5.1.1.8.1) is now included.\n\n\n\n\n## SARS-CoV-2 (BA.2) (nextstrain/sars-cov-2/BA.2)\n\nDEPRECATED: As almost all of the current circulation descends from BA.2 via BA.2.86, we are deprecating this dataset. It will no longer receive updates.\n\nPlease use the `wuhan-hu-1` or `BA.2.86` datasets instead.\n\n\n\n\n## SARS-CoV-2 (XBB) (nextstrain/sars-cov-2/XBB)\n\nDEPRECATED: As almost none of the current circulation descends from XBB anymore, we are deprecating this dataset. It will no longer receive updates. \n\nPlease use the `wuhan-hu-1` or `BA.2.86` datasets instead.\n\n\n\n\n## SARS-CoV-2 (BA.2.86) (nextstrain/sars-cov-2/BA.2.86)\n\n- Newly designated Nextstrain clade 25B (Pango lineage NB.1.8.1 = XDV.1.5.1.1.8.1) is now included.\n\n\n\n"
       }
 }
